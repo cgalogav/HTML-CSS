@@ -1,0 +1,23 @@
+/*Using temporary background colors*/
+
+#head{
+    background-color: lightblue;
+    border: 3px black solid;
+}
+
+#left{
+    background-color: yellow;
+    float: left;
+    width: 20%;
+}
+
+#right{
+    background-color: green;
+    float: left;
+    width: 75%;
+}
+
+#footer{
+    background-color: orange;
+    clear: both;
+}

@@ -1,0 +1,35 @@
+#head{
+    text-align: center;
+}
+#left{
+    width: 20%;
+    float: left;
+    padding-left: 1%;
+    min-height: 36.66em;
+    background-color: #eeeeee;
+    overflow: auto;
+}
+#center{
+    float: left;
+    width: 60%;
+    padding-left: 1%;
+    min-height: 36.66em;
+    background-color: pink;
+    overflow: auto;
+}
+#right{
+    float: left;
+    width: 17%;
+    padding-left: 1%;
+    min-height: 29.8em;
+    background-color: #eeeeee;
+    overflow: auto;
+			  
+}
+#footer{
+    border: 3px black groove;
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}

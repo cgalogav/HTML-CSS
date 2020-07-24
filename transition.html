@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang = "en-UK">
+  <head>
+    <meta charset = "UTF-8">
+    <title>transition.html</title>
+    <style type = "text/css">
+      #box{
+      -moz-transition: all 5s ease-in;
+      width: 100px;
+      height:100px;
+      border: 1px red solid;
+      background-color: blue;
+      }
+      #box:hover{
+     -moz-transition: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is a Transition Demo.</h1>
+    <div id = "box">Box</div>
+  </body>
+</html>

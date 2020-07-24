@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang = "en-UK">
+  <head>
+    <meta charset = "UTF-8">
+    <title>overRide.html</title>
+    <style type = "text/css">
+      body{color:red;}
+      p{color:green}
+      .myClass{color:blue}
+      #whatColor{color: purple;}
+    </style>
+  </head>
+  <body>
+    <div>
+      This div has only the style from the body
+    </div>
+    <p>
+      This is a regular paragraph with regular styling
+    </p>
+    <p class = "myClass">
+      This paragraph is member of a class
+    </p>
+    <p class = "myClass" id = "whatColor">
+      This paragraph is member of a class and has an ID.<br/>
+      both with style rules.
+    </p>
+  </body>
+</html>

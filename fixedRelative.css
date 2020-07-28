@@ -1,0 +1,41 @@
+/*fixedRelative.css */
+
+body{
+    background-color: #fff9bf;
+}
+
+h1{
+    text-align: center;
+}
+
+#menu{
+    position: fixed;
+    width: 18%;
+}
+
+#menu a{
+    display: block;
+    border: 2px gray outset;
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover{
+    color: white;
+    background-color: black;
+    border: 2px gray inset;
+}
+
+#menu h2{
+    text-align: center;
+}
+
+.content{
+    position: relative;
+    left: 20%;
+    width: 80%;
+}
+
+.content h2{
+    border-top: 3px black double;
+}

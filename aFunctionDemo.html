@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>aFunctionDemo.html</title>
+		<meta charset = 'UTF-8'>
+		<script>
+			var output;
+			function text1(){
+				var text = 'Hello there...';
+				text += '<br/>';
+				output.innerHTML += text;
+			}
+			
+			function text2(){
+				var text = 'My name is FUN...';
+				text += '<br/>';
+				output.innerHTML += text;
+			}
+			
+			function text3(){
+				var text = 'I am an AI application program!';
+				text += '<br/>';
+				text += 'Welcome!';
+				output.innerHTML += text;
+			}
+			
+			function makeFn(){
+				output = document.getElementById('output');
+				output.innerHTML = " ";
+				text1();
+				text2();
+				text3();
+			}
+			
+		</script>
+		<style>
+			body{
+				color : white;
+				background-color : black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>This is a function Demo</h1>
+		<form action = "">
+			<fieldset>
+				<button type = 'button'
+					onclick = 'makeFn()'>
+					Press me...
+				</button>
+			</fieldset>
+		</form>
+		<div id='output'>
+			<p>In this place I will give you something.</p> 
+		</div>
+	</body>
+</html>
+	

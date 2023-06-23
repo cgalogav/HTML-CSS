@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang = 'en-uk'>
+	<head>
+		<meta charset = 'utf-8'>
+		<title>demo_22-6-23.html</title>
+		<style>
+			#surname{				
+				width: 15em;
+			}
+			body{
+				background-color: pink;
+				color: blue;
+			}
+			h1{
+				margin: auto;
+				color: red;
+				width: 15em;
+				background-color: green;
+				text-align : center;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id = 'h1' width = '100%' center>
+			<h1 align = 'center'>This is a Demo in June 22nd 2023</h1>
+		</div>
+		<br/>
+		<p>
+			Here I use the "form" element with other things.
+		</p>
+		
+		<form action = ''>
+			<fieldset>
+				<legend>Hello</legend>
+					<label for = 'name'>Name:</label>
+					<input id = 'name' name = 'name'type = 'text'
+									placeholder = 'Please enter your name!'required/>
+					<br/>
+					<br/>
+					<label for = 'surname' >Surname:</label>
+					<input id = 'surname' type = 'text'
+										name = 'surname'
+										placeholder = 'Please enter your surname!' required
+										/> <br/> <br/>
+					<label for = 'gender'>Gender:</label>
+						<select id = 'gender' name = 'gender'>
+							<option>Male</option>
+							<option>Female</option>
+							<option>Non-Binary</option>
+						</select><br><br>
+					<label for = 'submit'>Submition Button:</label>					
+					<input type = 'button' value = 'Submit!' id = 'submit' name = 'submit' />
+			</fieldset>
+		</form>
+	</body>
+</html>

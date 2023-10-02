@@ -1,0 +1,29 @@
+header{
+	border-bottom: 5px double black;
+	text-align: center;
+}
+
+nav{
+	float: left;
+	clear: left;
+	width: 20%;
+	border-right: 1px solid grey;
+}
+
+article{
+	float: left;
+	width: 75%;
+	padding-left: 1em;
+}
+
+section{
+	float: left;
+	width: 75%;
+	padding-left; 1em;
+}
+
+footer{
+	clear: both;
+	border-top: 5px black double;
+	text-align: center;
+}

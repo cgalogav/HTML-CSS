@@ -1,35 +1,42 @@
 #head{
-    text-align: center;
+	background-color: lightblue;
+	text-align: center;
 }
+
 #left{
-    width: 20%;
-    float: left;
-    padding-left: 1%;
-    min-height: 36.66em;
-    background-color: #eeeeee;
-    overflow: auto;
+	background-color: pink;
+	float: left;
+	width: 20%;
+	padding-right: 1%;
+	border-right: 2px double black;
+	height: 30em;
+	overflow: auto;
 }
+
 #center{
-    float: left;
-    width: 60%;
-    padding-left: 1%;
-    min-height: 36.66em;
-    background-color: pink;
-    overflow: auto;
+	background-color: yellow;
+	float: left;
+	width: 56%;
+	height: 30em;
+	overflow: auto;
+	
 }
+
 #right{
-    float: left;
-    width: 17%;
-    padding-left: 1%;
-    min-height: 29.8em;
-    background-color: #eeeeee;
-    overflow: auto;
-			  
+	background-color: lightgreen;
+	float: left;
+	width: 20%;
+	padding-left: 1%;
+	border-left: 2px double black;
+	height: 30em;
+	overflow: auto;
+	
 }
+
 #footer{
-    border: 3px black groove;
-    float: left;
-    width: 100%;
-    clear: both;
-    text-align: center;
+	background-color: grey;
+	text-align: center;
+	clear: both;
+	border-top: 3px double black;
+	padding-bottom: 2%;
 }

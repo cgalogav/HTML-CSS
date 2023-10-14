@@ -1,0 +1,21 @@
+#menu li{
+	list-style-type: none;
+	width: 7em;
+	text-align: center;
+	margin-left: -2.5em;
+}
+
+#menu a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: lightblue;
+	box-shadow: 5px 5px 5px grey;
+	margin-bottom: 2px;
+}
+
+#menu a:hover{
+	background-color: pink;
+	box-shadow: 2px 2px 2px gray;
+	border: none;
+}

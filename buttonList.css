@@ -1,0 +1,30 @@
+#menu li{
+	list-style-type: none;
+	width: 7em;
+	text-align: center;
+	float: left;
+}
+
+#menu ul{
+	margin-left: -2.5em;
+}
+
+#menu a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: #eeeeff;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+
+#menu a:hover{
+	background-color: #ddddee;
+	box-shadow: 3px 3px 3px gray;
+	border: none;
+}
+
+body{
+	background-color: lightblue;
+}

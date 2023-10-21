@@ -1,7 +1,37 @@
+
+a{
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
 li ul{
 	display: none;
 }
 
+a:hover{
+	background-color: white;
+}
+
+li{
+	list-style-type: none;
+	background-color: #cccccc;
+	width: 10em;
+	float: left;
+	border: 1px solid blsck;
+	text-align: center;
+}
+
 li:hover > ul{
 	display: block;
+	margin-left: -2em;
+}
+
+li li li{
+	margin-left: 1em;
+}
+.marg{
+	margin: auto;
+	text-align: center;
+	clear: both;
 }
